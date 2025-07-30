@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHD Fashion Apparel - Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="logo">MHD Fashion Apparel</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="shop.html" class="active">Shop</a>
+            <a href="cart.html">Cart 🛒</a>
+        </nav>
+    </header>
+
+    <!-- Shop Section -->
+    <section class="shop">
+        <h1>Our Collection</h1>
+        <div class="product-grid">
+
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/250x300?text=T-Shirt" alt="T-Shirt">
+                <h3>Classic White T-Shirt</h3>
+                <p>$15</p>
+                <button onclick="addToCart('Classic White T-Shirt', 15)">Add to Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/250x300?text=Jacket" alt="Jacket">
+                <h3>Black Leather Jacket</h3>
+                <p>$60</p>
+                <button onclick="addToCart('Black Leather Jacket', 60)">Add to Cart</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/250x300?text=Dress" alt="Dress">
+                <h3>Elegant Red Dress</h3>
+                <p>$40</p>
+                <button onclick="addToCart('Elegant Red Dress', 40)">Add to Cart</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/250x300?text=Hoodie" alt="Hoodie">
+                <h3>Casual Grey Hoodie</h3>
+                <p>$25</p>
+                <button onclick="addToCart('Casual Grey Hoodie', 25)">Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 MHD Fashion Apparel. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
